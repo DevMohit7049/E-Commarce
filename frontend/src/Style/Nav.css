@@ -1,0 +1,24 @@
+ .navbar{
+
+     padding: 15px;
+     background-color: #e91e63;
+     border-bottom: 1px solid rgb(202, 198, 198);
+}
+
+.nav-link{
+    color: #fff;
+}
+
+/* 
+ .nav-link:hover{
+    color: #f5efef;
+}  */
+
+/* .nav-link:disabled{
+    color: #fff;
+} */
+
+.navbar-nav{
+    
+    margin: auto;
+} 

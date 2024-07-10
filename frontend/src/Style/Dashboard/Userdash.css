@@ -1,0 +1,101 @@
+.main-container{
+    /* border: 1px solid red; */
+    padding: 20px;
+    
+}
+
+
+
+.user-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(252, 228, 232);
+    border-radius: 10px;
+    gap: 8px;
+
+}
+
+.user-img{
+
+    border-radius: 100%; 
+    /* border: 1px solid red; */
+}
+.user-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+
+.user-info h1{
+  font-size: 1.3rem;
+}
+
+
+
+.bottem{
+    /* border: 1px solid grey; */
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .................user-dash-heading............. */
+
+.user-dash-heading{
+    /* border: 1px solid red; */
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+}
+.user-dash-heading h1{
+   font-size: 1.6rem;
+   font-weight: 600;
+}
+
+/* .........bottem-main............. */
+
+.bottem-main{
+    border: 2px solid rgb(252, 212, 219);
+    height: 40vh;
+    width: 80%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.left-main{
+
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+   
+    background-color: rgb(252, 212, 219);;
+}
+
+.order-info{
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 15px;
+     /* border: 1px solid rgb(245, 95, 8); */
+}
+
+
+/* .............Center div................ */
+
+.center-main{
+   /* border: 2px solid red; */
+   display: flex;
+   justify-content: space-around;
+   width: 30%;
+}
+
+.center-item{
+
+    margin-top: 15px;
+}

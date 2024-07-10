@@ -1,0 +1,73 @@
+.testimonial-container{
+
+    /* border: 1px solid red; */
+    height: 70vh;
+    margin-top: 20px;
+}
+
+.testimonial-headings{
+      text-align: center;
+      margin-top: 10px;
+}
+.testimonial-headings>h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.testimonial-headings>h3{
+    font-size: 1.5rem;
+    color: grey;
+}
+
+/* ............................................................................................................... */
+
+.main-box{
+   /* border: 1px solid rebeccapurple; */
+   padding: 30px;
+   display: flex;
+   gap: 20px;
+}
+
+.card-box{
+   /* border: 2px solid greenyellow; */
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-box>img{
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.card-box>p{
+    text-align: center;
+    word-spacing: 1px;
+    margin-top: 10px;
+    color: gray;
+    font-size: 15px;
+}
+.card-box>h6{
+    color: gray;
+}
+
+/* .......................................................................................................... */
+
+@media (max-width:992px) {
+
+    .testimonial-container{
+        height: 100%;
+    }
+
+    .main-box{
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .card-box{
+       width: 100%;
+    }
+}

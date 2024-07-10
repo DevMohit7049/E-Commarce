@@ -1,0 +1,26 @@
+.track-contianer{
+    border: 2px solid red;
+    padding: 50px;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.track{
+   border: 1px solid rgb(47, 78, 255);
+   height: 90%;
+   width: 30%;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.track-two{
+    border: 1px solid rgb(50, 47, 255);
+}
+
+
+.track-three{
+    border: 1px solid rgb(238, 47, 255);
+}

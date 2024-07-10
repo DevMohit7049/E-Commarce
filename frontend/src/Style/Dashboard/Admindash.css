@@ -1,0 +1,12 @@
+.col-container{
+    gap: 5px;
+    border-radius: 10px;
+    background-color: rgb(252, 228, 232);
+    transition: all 0.4s ease-in-out;
+}
+.col-container p{
+    font-weight: 600;
+}
+.col-container:hover{
+    background-color: pink;
+}
