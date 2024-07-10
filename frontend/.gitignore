@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
+# secret key
 .env
 
 # Editor directories and files
